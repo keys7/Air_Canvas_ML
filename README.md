@@ -1,24 +1,24 @@
 ### Air Canvas ML Model: Drawing with Hand Gestures
 
-Have you ever envisioned creating art simply by moving your hand? Enter Air Canvas, an innovative virtual drawing tool empowered by OpenCV and MediaPipe. This project revolutionizes digital interaction by enabling users to draw in real-time using intuitive hand gestures captured through a standard webcam. A virtual drawing tool " Computer vision project " that allows you to draw in the air using hand gestures.
+Have you ever envisioned creating art simply by moving your hand? Enter Air Canvas, an innovative virtual drawing tool empowered by OpenCV and MediaPipe. This project revolutionizes digital interaction by enabling users to draw in real time using intuitive hand gestures captured through a standard webcam. A virtual drawing tool " Computer Vision Project" allows you to draw in the air using hand gestures.
 
 #### Tools and Libraries Used
 
 - **Python3:** A versatile programming language renowned for its simplicity and efficiency in scripting and application development.
 
-- **NumPy:** A fundamental library for numerical computing in Python, providing support for large arrays and matrices, along with a comprehensive collection of mathematical functions.
+- **NumPy:** A fundamental library for numerical computing in Python, providing support for large arrays and matrices and a comprehensive collection of mathematical functions.
 
 - **OpenCV (Open Source Computer Vision Library):**
-  - **Purpose:** OpenCV is pivotal for performing various computer vision tasks, including capturing, processing, and analyzing images and video streams in real-time.
+  - **Purpose:** OpenCV is pivotal for performing various computer vision tasks, including capturing, processing, and analyzing images and video streams in real time.
   - **Usage in Air Canvas:** 
     - Utilizes `VideoCapture` to obtain live video frames from the webcam.
     - Converts color spaces (e.g., RGB to HSV) to facilitate easier color detection and manipulation.
     - Implements geometric transformations and image filtering techniques for enhanced visual processing.
 
 - **MediaPipe:**
-  - **Purpose:** Google developed MediaPipe as an open-source framework for building and deploying machine-learning pipelines. These pipelines process multimedia data like text, video, and audio in real-time.
+  - **Purpose:** Google developed MediaPipe as an open-source framework for building and deploying machine-learning pipelines. These pipelines process multimedia data like text, video, and audio in real time.
   - **Usage in Air Canvas:**
-    - Integrates MediaPipe's `Hands` module to accurately detect and track hand landmarks (key points) in real-time.
+    - Integrates MediaPipe's `Hands` module to accurately detect and track hand landmarks (key points) in real time.
     - Enables the identification of specific hand gestures and movements, crucial for interactive drawing applications.
     - Utilizes `drawing_utils` for rendering hand landmarks on the output frames, facilitating visual feedback for users.
 
@@ -47,6 +47,14 @@ Have you ever envisioned creating art simply by moving your hand? Enter Air Canv
 
 ### How It Works
 
+![Screenshot 2024-06-27 at 11 06 26 AM](https://github.com/keys7/Air_Canvas_ML/assets/101874897/479ef305-90c6-4da4-9a5a-abf94d5e8bfc)
+![Screenshot 2024-06-27 at 11 06 47 AM](https://github.com/keys7/Air_Canvas_ML/assets/101874897/b0f509c9-76e7-4042-8411-62af8f24568f)
+
+
+Uploading 1719464889224549.mp4…
+
+
+
 1. **Video Feed Processing:** 
    - Opens a connection to the webcam and continuously captures video frames.
    - Each frame undergoes preprocessing to enhance visibility and facilitate subsequent analysis and interaction.
@@ -61,4 +69,4 @@ Have you ever envisioned creating art simply by moving your hand? Enter Air Canv
 
 ### Conclusion
 
-Air Canvas transforms traditional digital drawing by integrating intuitive hand gestures with advanced computer vision technologies. By harnessing OpenCV for video processing and MediaPipe for accurate hand tracking and landmark detection, this project enables users to create digital art effortlessly through natural hand movements. Whether for artistic expression, interactive design, or educational purposes, Air Canvas offers a seamless and engaging user experience, bridging the gap between physical gesture and digital creation.
+Air Canvas transforms traditional digital drawing by integrating intuitive hand gestures with advanced computer vision technologies. By harnessing OpenCV for video processing and MediaPipe for accurate hand tracking and landmark detection, this project enables users to create digital art effortlessly through natural hand movements. Air Canvas offers a seamless and engaging user experience, bridging the gap between physical gestures and digital creation, whether for artistic expression, interactive design, or educational purposes.
