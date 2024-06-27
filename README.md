@@ -51,7 +51,11 @@ Have you ever envisioned creating art simply by moving your hand? Enter Air Canv
 ![Screenshot 2024-06-27 at 11 06 47 AM](https://github.com/keys7/Air_Canvas_ML/assets/101874897/b0f509c9-76e7-4042-8411-62af8f24568f)
 
 
-Uploading 1719464889224549.mp4…
+
+
+https://github.com/keys7/Air_Canvas_ML/assets/101874897/bfb700d5-0ec1-4dab-8bf5-357ec45cf090
+
+
 
 
 
